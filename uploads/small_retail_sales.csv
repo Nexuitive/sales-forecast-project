@@ -1,0 +1,902 @@
+Transaction_ID,Date,Product,Category,Quantity,Unit_Price,Total_Sales
+T0001,2023-01-01,Milk,Dairy,1,3,3
+T0002,2023-01-02,Soap,Personal Care,4,4,16
+T0003,2023-01-03,Eggs,Dairy,3,5,15
+T0004,2023-01-04,Milk,Dairy,9,3,27
+T0005,2023-01-05,Milk,Dairy,10,3,30
+T0006,2023-01-06,Sugar,Groceries,1,6,6
+T0007,2023-01-07,Rice,Groceries,2,15,30
+T0008,2023-01-08,Eggs,Dairy,4,5,20
+T0009,2023-01-09,Coffee,Beverages,10,10,100
+T0010,2023-01-10,Rice,Groceries,9,15,135
+T0011,2023-01-11,Eggs,Dairy,9,5,45
+T0012,2023-01-12,Sugar,Groceries,4,6,24
+T0013,2023-01-13,Tea,Beverages,10,7,70
+T0014,2023-01-14,Soap,Personal Care,1,4,4
+T0015,2023-01-15,Bread,Bakery,7,2,14
+T0016,2023-01-16,Shampoo,Personal Care,5,8,40
+T0017,2023-01-17,Bread,Bakery,4,2,8
+T0018,2023-01-18,Shampoo,Personal Care,2,8,16
+T0019,2023-01-19,Milk,Dairy,7,3,21
+T0020,2023-01-20,Milk,Dairy,6,3,18
+T0021,2023-01-21,Shampoo,Personal Care,10,8,80
+T0022,2023-01-22,Soap,Personal Care,1,4,4
+T0023,2023-01-23,Tea,Beverages,9,7,63
+T0024,2023-01-24,Milk,Dairy,7,3,21
+T0025,2023-01-25,Milk,Dairy,9,3,27
+T0026,2023-01-26,Soap,Personal Care,10,4,40
+T0027,2023-01-27,Shampoo,Personal Care,10,8,80
+T0028,2023-01-28,Eggs,Dairy,2,5,10
+T0029,2023-01-29,Rice,Groceries,4,15,60
+T0030,2023-01-30,Soap,Personal Care,2,4,8
+T0031,2023-01-31,Eggs,Dairy,2,5,10
+T0032,2023-02-01,Sugar,Groceries,5,6,30
+T0033,2023-02-02,Tea,Beverages,6,7,42
+T0034,2023-02-03,Bread,Bakery,6,2,12
+T0035,2023-02-04,Shampoo,Personal Care,4,8,32
+T0036,2023-02-05,Soap,Personal Care,2,4,8
+T0037,2023-02-06,Biscuits,Snacks,3,3,9
+T0038,2023-02-07,Coffee,Beverages,4,10,40
+T0039,2023-02-08,Bread,Bakery,8,2,16
+T0040,2023-02-09,Sugar,Groceries,5,6,30
+T0041,2023-02-10,Coffee,Beverages,4,10,40
+T0042,2023-02-11,Shampoo,Personal Care,1,8,8
+T0043,2023-02-12,Eggs,Dairy,1,5,5
+T0044,2023-02-13,Shampoo,Personal Care,7,8,56
+T0045,2023-02-14,Soap,Personal Care,2,4,8
+T0046,2023-02-15,Eggs,Dairy,10,5,50
+T0047,2023-02-16,Shampoo,Personal Care,4,8,32
+T0048,2023-02-17,Tea,Beverages,7,7,49
+T0049,2023-02-18,Tea,Beverages,3,7,21
+T0050,2023-02-19,Soap,Personal Care,3,4,12
+T0051,2023-02-20,Eggs,Dairy,9,5,45
+T0052,2023-02-21,Coffee,Beverages,5,10,50
+T0053,2023-02-22,Biscuits,Snacks,7,3,21
+T0054,2023-02-23,Biscuits,Snacks,7,3,21
+T0055,2023-02-24,Shampoo,Personal Care,4,8,32
+T0056,2023-02-25,Bread,Bakery,9,2,18
+T0057,2023-02-26,Tea,Beverages,2,7,14
+T0058,2023-02-27,Rice,Groceries,2,15,30
+T0059,2023-02-28,Bread,Bakery,3,2,6
+T0060,2023-03-01,Sugar,Groceries,10,6,60
+T0061,2023-03-02,Milk,Dairy,7,3,21
+T0062,2023-03-03,Sugar,Groceries,10,6,60
+T0063,2023-03-04,Tea,Beverages,9,7,63
+T0064,2023-03-05,Soap,Personal Care,9,4,36
+T0065,2023-03-06,Rice,Groceries,2,15,30
+T0066,2023-03-07,Coffee,Beverages,5,10,50
+T0067,2023-03-08,Shampoo,Personal Care,2,8,16
+T0068,2023-03-09,Soap,Personal Care,7,4,28
+T0069,2023-03-10,Bread,Bakery,8,2,16
+T0070,2023-03-11,Rice,Groceries,5,15,75
+T0071,2023-03-12,Coffee,Beverages,3,10,30
+T0072,2023-03-13,Coffee,Beverages,2,10,20
+T0073,2023-03-14,Soap,Personal Care,9,4,36
+T0074,2023-03-15,Biscuits,Snacks,4,3,12
+T0075,2023-03-16,Bread,Bakery,6,2,12
+T0076,2023-03-17,Bread,Bakery,9,2,18
+T0077,2023-03-18,Coffee,Beverages,1,10,10
+T0078,2023-03-19,Biscuits,Snacks,6,3,18
+T0079,2023-03-20,Tea,Beverages,1,7,7
+T0080,2023-03-21,Milk,Dairy,6,3,18
+T0081,2023-03-22,Soap,Personal Care,4,4,16
+T0082,2023-03-23,Rice,Groceries,4,15,60
+T0083,2023-03-24,Biscuits,Snacks,2,3,6
+T0084,2023-03-25,Milk,Dairy,8,3,24
+T0085,2023-03-26,Milk,Dairy,9,3,27
+T0086,2023-03-27,Bread,Bakery,3,2,6
+T0087,2023-03-28,Tea,Beverages,9,7,63
+T0088,2023-03-29,Bread,Bakery,5,2,10
+T0089,2023-03-30,Coffee,Beverages,10,10,100
+T0090,2023-03-31,Sugar,Groceries,4,6,24
+T0091,2023-04-01,Coffee,Beverages,4,10,40
+T0092,2023-04-02,Soap,Personal Care,7,4,28
+T0093,2023-04-03,Shampoo,Personal Care,8,8,64
+T0094,2023-04-04,Coffee,Beverages,8,10,80
+T0095,2023-04-05,Milk,Dairy,4,3,12
+T0096,2023-04-06,Eggs,Dairy,2,5,10
+T0097,2023-04-07,Shampoo,Personal Care,1,8,8
+T0098,2023-04-08,Biscuits,Snacks,9,3,27
+T0099,2023-04-09,Eggs,Dairy,10,5,50
+T0100,2023-04-10,Eggs,Dairy,1,5,5
+T0101,2023-04-11,Milk,Dairy,1,3,3
+T0102,2023-04-12,Eggs,Dairy,2,5,10
+T0103,2023-04-13,Rice,Groceries,6,15,90
+T0104,2023-04-14,Milk,Dairy,9,3,27
+T0105,2023-04-15,Eggs,Dairy,5,5,25
+T0106,2023-04-16,Tea,Beverages,4,7,28
+T0107,2023-04-17,Coffee,Beverages,3,10,30
+T0108,2023-04-18,Biscuits,Snacks,10,3,30
+T0109,2023-04-19,Tea,Beverages,4,7,28
+T0110,2023-04-20,Tea,Beverages,7,7,49
+T0111,2023-04-21,Eggs,Dairy,2,5,10
+T0112,2023-04-22,Milk,Dairy,7,3,21
+T0113,2023-04-23,Shampoo,Personal Care,7,8,56
+T0114,2023-04-24,Sugar,Groceries,8,6,48
+T0115,2023-04-25,Rice,Groceries,2,15,30
+T0116,2023-04-26,Rice,Groceries,7,15,105
+T0117,2023-04-27,Shampoo,Personal Care,2,8,16
+T0118,2023-04-28,Eggs,Dairy,4,5,20
+T0119,2023-04-29,Eggs,Dairy,9,5,45
+T0120,2023-04-30,Tea,Beverages,3,7,21
+T0121,2023-05-01,Sugar,Groceries,3,6,18
+T0122,2023-05-02,Soap,Personal Care,8,4,32
+T0123,2023-05-03,Eggs,Dairy,2,5,10
+T0124,2023-05-04,Tea,Beverages,9,7,63
+T0125,2023-05-05,Milk,Dairy,1,3,3
+T0126,2023-05-06,Coffee,Beverages,1,10,10
+T0127,2023-05-07,Milk,Dairy,4,3,12
+T0128,2023-05-08,Bread,Bakery,7,2,14
+T0129,2023-05-09,Tea,Beverages,8,7,56
+T0130,2023-05-10,Eggs,Dairy,7,5,35
+T0131,2023-05-11,Rice,Groceries,3,15,45
+T0132,2023-05-12,Sugar,Groceries,1,6,6
+T0133,2023-05-13,Sugar,Groceries,5,6,30
+T0134,2023-05-14,Tea,Beverages,5,7,35
+T0135,2023-05-15,Sugar,Groceries,9,6,54
+T0136,2023-05-16,Tea,Beverages,3,7,21
+T0137,2023-05-17,Eggs,Dairy,5,5,25
+T0138,2023-05-18,Eggs,Dairy,1,5,5
+T0139,2023-05-19,Biscuits,Snacks,9,3,27
+T0140,2023-05-20,Rice,Groceries,6,15,90
+T0141,2023-05-21,Rice,Groceries,1,15,15
+T0142,2023-05-22,Biscuits,Snacks,8,3,24
+T0143,2023-05-23,Coffee,Beverages,9,10,90
+T0144,2023-05-24,Bread,Bakery,1,2,2
+T0145,2023-05-25,Coffee,Beverages,2,10,20
+T0146,2023-05-26,Bread,Bakery,2,2,4
+T0147,2023-05-27,Biscuits,Snacks,2,3,6
+T0148,2023-05-28,Eggs,Dairy,7,5,35
+T0149,2023-05-29,Milk,Dairy,10,3,30
+T0150,2023-05-30,Eggs,Dairy,10,5,50
+T0151,2023-05-31,Biscuits,Snacks,1,3,3
+T0152,2023-06-01,Biscuits,Snacks,2,3.3,6.6
+T0153,2023-06-02,Sugar,Groceries,10,6.6,66
+T0154,2023-06-03,Biscuits,Snacks,9,3.3,29.7
+T0155,2023-06-04,Shampoo,Personal Care,5,8.8,44
+T0156,2023-06-05,Eggs,Dairy,6,5.5,33
+T0157,2023-06-06,Eggs,Dairy,5,5.5,27.5
+T0158,2023-06-07,Sugar,Groceries,3,6.6,19.8
+T0159,2023-06-08,Soap,Personal Care,8,4.4,35.2
+T0160,2023-06-09,Shampoo,Personal Care,2,8.8,17.6
+T0161,2023-06-10,Rice,Groceries,8,16.5,132
+T0162,2023-06-11,Biscuits,Snacks,10,3.3,33
+T0163,2023-06-12,Milk,Dairy,2,3.3,6.6
+T0164,2023-06-13,Coffee,Beverages,4,11,44
+T0165,2023-06-14,Coffee,Beverages,5,11,55
+T0166,2023-06-15,Bread,Bakery,6,2.2,13.2
+T0167,2023-06-16,Milk,Dairy,4,3.3,13.2
+T0168,2023-06-17,Shampoo,Personal Care,5,8.8,44
+T0169,2023-06-18,Bread,Bakery,8,2.2,17.6
+T0170,2023-06-19,Coffee,Beverages,5,11,55
+T0171,2023-06-20,Biscuits,Snacks,9,3.3,29.7
+T0172,2023-06-21,Rice,Groceries,9,16.5,148.5
+T0173,2023-06-22,Soap,Personal Care,2,4.4,8.8
+T0174,2023-06-23,Bread,Bakery,5,2.2,11
+T0175,2023-06-24,Milk,Dairy,2,3.3,6.6
+T0176,2023-06-25,Coffee,Beverages,3,11,33
+T0177,2023-06-26,Soap,Personal Care,5,4.4,22
+T0178,2023-06-27,Biscuits,Snacks,4,3.3,13.2
+T0179,2023-06-28,Shampoo,Personal Care,4,8.8,35.2
+T0180,2023-06-29,Soap,Personal Care,9,4.4,39.6
+T0181,2023-06-30,Tea,Beverages,5,7.7,38.5
+T0182,2023-07-01,Rice,Groceries,2,16.5,33
+T0183,2023-07-02,Sugar,Groceries,5,6.6,33
+T0184,2023-07-03,Rice,Groceries,1,16.5,16.5
+T0185,2023-07-04,Shampoo,Personal Care,3,8.8,26.4
+T0186,2023-07-05,Soap,Personal Care,3,4.4,13.2
+T0187,2023-07-06,Tea,Beverages,9,7.7,69.3
+T0188,2023-07-07,Sugar,Groceries,9,6.6,59.4
+T0189,2023-07-08,Rice,Groceries,2,16.5,33
+T0190,2023-07-09,Milk,Dairy,3,3.3,9.9
+T0191,2023-07-10,Coffee,Beverages,1,11,11
+T0192,2023-07-11,Shampoo,Personal Care,10,8.8,88
+T0193,2023-07-12,Coffee,Beverages,3,11,33
+T0194,2023-07-13,Sugar,Groceries,3,6.6,19.8
+T0195,2023-07-14,Rice,Groceries,5,16.5,82.5
+T0196,2023-07-15,Shampoo,Personal Care,1,8.8,8.8
+T0197,2023-07-16,Shampoo,Personal Care,4,8.8,35.2
+T0198,2023-07-17,Eggs,Dairy,2,5.5,11
+T0199,2023-07-18,Shampoo,Personal Care,9,8.8,79.2
+T0200,2023-07-19,Sugar,Groceries,10,6.6,66
+T0201,2023-07-20,Bread,Bakery,4,2.2,8.8
+T0202,2023-07-21,Bread,Bakery,3,2.2,6.6
+T0203,2023-07-22,Sugar,Groceries,1,6.6,6.6
+T0204,2023-07-23,Bread,Bakery,6,2.2,13.2
+T0205,2023-07-24,Sugar,Groceries,4,6.6,26.4
+T0206,2023-07-25,Soap,Personal Care,3,4.4,13.2
+T0207,2023-07-26,Milk,Dairy,7,3.3,23.1
+T0208,2023-07-27,Rice,Groceries,8,16.5,132
+T0209,2023-07-28,Eggs,Dairy,4,5.5,22
+T0210,2023-07-29,Tea,Beverages,6,7.7,46.2
+T0211,2023-07-30,Soap,Personal Care,4,4.4,17.6
+T0212,2023-07-31,Eggs,Dairy,1,5.5,5.5
+T0213,2023-08-01,Eggs,Dairy,7,5,35
+T0214,2023-08-02,Shampoo,Personal Care,5,8,40
+T0215,2023-08-03,Milk,Dairy,5,3,15
+T0216,2023-08-04,Shampoo,Personal Care,9,8,72
+T0217,2023-08-05,Sugar,Groceries,9,6,54
+T0218,2023-08-06,Shampoo,Personal Care,1,8,8
+T0219,2023-08-07,Milk,Dairy,5,3,15
+T0220,2023-08-08,Bread,Bakery,10,2,20
+T0221,2023-08-09,Soap,Personal Care,1,4,4
+T0222,2023-08-10,Milk,Dairy,10,3,30
+T0223,2023-08-11,Sugar,Groceries,6,6,36
+T0224,2023-08-12,Shampoo,Personal Care,7,8,56
+T0225,2023-08-13,Biscuits,Snacks,9,3,27
+T0226,2023-08-14,Milk,Dairy,7,3,21
+T0227,2023-08-15,Biscuits,Snacks,4,3,12
+T0228,2023-08-16,Soap,Personal Care,1,4,4
+T0229,2023-08-17,Sugar,Groceries,1,6,6
+T0230,2023-08-18,Coffee,Beverages,9,10,90
+T0231,2023-08-19,Eggs,Dairy,6,5,30
+T0232,2023-08-20,Sugar,Groceries,2,6,12
+T0233,2023-08-21,Shampoo,Personal Care,10,8,80
+T0234,2023-08-22,Shampoo,Personal Care,2,8,16
+T0235,2023-08-23,Soap,Personal Care,9,4,36
+T0236,2023-08-24,Soap,Personal Care,7,4,28
+T0237,2023-08-25,Shampoo,Personal Care,7,8,56
+T0238,2023-08-26,Soap,Personal Care,9,4,36
+T0239,2023-08-27,Bread,Bakery,4,2,8
+T0240,2023-08-28,Sugar,Groceries,7,6,42
+T0241,2023-08-29,Bread,Bakery,10,2,20
+T0242,2023-08-30,Biscuits,Snacks,5,3,15
+T0243,2023-08-31,Sugar,Groceries,9,6,54
+T0244,2023-09-01,Rice,Groceries,5,15,75
+T0245,2023-09-02,Soap,Personal Care,4,4,16
+T0246,2023-09-03,Sugar,Groceries,10,6,60
+T0247,2023-09-04,Biscuits,Snacks,6,3,18
+T0248,2023-09-05,Tea,Beverages,8,7,56
+T0249,2023-09-06,Tea,Beverages,4,7,28
+T0250,2023-09-07,Coffee,Beverages,8,10,80
+T0251,2023-09-08,Bread,Bakery,2,2,4
+T0252,2023-09-09,Soap,Personal Care,9,4,36
+T0253,2023-09-10,Biscuits,Snacks,6,3,18
+T0254,2023-09-11,Milk,Dairy,4,3,12
+T0255,2023-09-12,Soap,Personal Care,4,4,16
+T0256,2023-09-13,Eggs,Dairy,3,5,15
+T0257,2023-09-14,Rice,Groceries,1,15,15
+T0258,2023-09-15,Eggs,Dairy,8,5,40
+T0259,2023-09-16,Biscuits,Snacks,2,3,6
+T0260,2023-09-17,Tea,Beverages,7,7,49
+T0261,2023-09-18,Biscuits,Snacks,4,3,12
+T0262,2023-09-19,Sugar,Groceries,8,6,48
+T0263,2023-09-20,Sugar,Groceries,4,6,24
+T0264,2023-09-21,Bread,Bakery,1,2,2
+T0265,2023-09-22,Milk,Dairy,7,3,21
+T0266,2023-09-23,Eggs,Dairy,3,5,15
+T0267,2023-09-24,Coffee,Beverages,8,10,80
+T0268,2023-09-25,Rice,Groceries,9,15,135
+T0269,2023-09-26,Eggs,Dairy,2,5,10
+T0270,2023-09-27,Tea,Beverages,3,7,21
+T0271,2023-09-28,Tea,Beverages,9,7,63
+T0272,2023-09-29,Coffee,Beverages,10,10,100
+T0273,2023-09-30,Shampoo,Personal Care,8,8,64
+T0274,2023-10-01,Biscuits,Snacks,9,3,27
+T0275,2023-10-02,Sugar,Groceries,9,6,54
+T0276,2023-10-03,Tea,Beverages,3,7,21
+T0277,2023-10-04,Tea,Beverages,8,7,56
+T0278,2023-10-05,Soap,Personal Care,4,4,16
+T0279,2023-10-06,Soap,Personal Care,9,4,36
+T0280,2023-10-07,Tea,Beverages,4,7,28
+T0281,2023-10-08,Soap,Personal Care,8,4,32
+T0282,2023-10-09,Milk,Dairy,5,3,15
+T0283,2023-10-10,Eggs,Dairy,5,5,25
+T0284,2023-10-11,Shampoo,Personal Care,6,8,48
+T0285,2023-10-12,Coffee,Beverages,2,10,20
+T0286,2023-10-13,Bread,Bakery,3,2,6
+T0287,2023-10-14,Eggs,Dairy,7,5,35
+T0288,2023-10-15,Bread,Bakery,4,2,8
+T0289,2023-10-16,Milk,Dairy,7,3,21
+T0290,2023-10-17,Sugar,Groceries,6,6,36
+T0291,2023-10-18,Coffee,Beverages,8,10,80
+T0292,2023-10-19,Sugar,Groceries,1,6,6
+T0293,2023-10-20,Eggs,Dairy,7,5,35
+T0294,2023-10-21,Sugar,Groceries,10,6,60
+T0295,2023-10-22,Rice,Groceries,10,15,150
+T0296,2023-10-23,Sugar,Groceries,8,6,48
+T0297,2023-10-24,Rice,Groceries,6,15,90
+T0298,2023-10-25,Soap,Personal Care,7,4,28
+T0299,2023-10-26,Sugar,Groceries,9,6,54
+T0300,2023-10-27,Coffee,Beverages,10,10,100
+T0301,2023-10-28,Eggs,Dairy,8,5,40
+T0302,2023-10-29,Eggs,Dairy,5,5,25
+T0303,2023-10-30,Sugar,Groceries,8,6,48
+T0304,2023-10-31,Rice,Groceries,7,15,105
+T0305,2023-11-01,Shampoo,Personal Care,7,10,70
+T0306,2023-11-02,Bread,Bakery,8,2.5,20
+T0307,2023-11-03,Bread,Bakery,10,2.5,25
+T0308,2023-11-04,Coffee,Beverages,1,12.5,12.5
+T0309,2023-11-05,Sugar,Groceries,10,7.5,75
+T0310,2023-11-06,Biscuits,Snacks,1,3.75,3.75
+T0311,2023-11-07,Milk,Dairy,7,3.75,26.25
+T0312,2023-11-08,Bread,Bakery,8,2.5,20
+T0313,2023-11-09,Bread,Bakery,1,2.5,2.5
+T0314,2023-11-10,Soap,Personal Care,7,5,35
+T0315,2023-11-11,Shampoo,Personal Care,4,10,40
+T0316,2023-11-12,Tea,Beverages,6,8.75,52.5
+T0317,2023-11-13,Shampoo,Personal Care,7,10,70
+T0318,2023-11-14,Soap,Personal Care,7,5,35
+T0319,2023-11-15,Soap,Personal Care,2,5,10
+T0320,2023-11-16,Tea,Beverages,1,8.75,8.75
+T0321,2023-11-17,Coffee,Beverages,1,12.5,12.5
+T0322,2023-11-18,Shampoo,Personal Care,4,10,40
+T0323,2023-11-19,Milk,Dairy,1,3.75,3.75
+T0324,2023-11-20,Rice,Groceries,4,18.75,75
+T0325,2023-11-21,Eggs,Dairy,1,6.25,6.25
+T0326,2023-11-22,Biscuits,Snacks,3,3.75,11.25
+T0327,2023-11-23,Eggs,Dairy,3,6.25,18.75
+T0328,2023-11-24,Tea,Beverages,2,8.75,17.5
+T0329,2023-11-25,Biscuits,Snacks,4,3.75,15
+T0330,2023-11-26,Tea,Beverages,5,8.75,43.75
+T0331,2023-11-27,Shampoo,Personal Care,3,10,30
+T0332,2023-11-28,Biscuits,Snacks,10,3.75,37.5
+T0333,2023-11-29,Milk,Dairy,3,3.75,11.25
+T0334,2023-11-30,Soap,Personal Care,2,5,10
+T0335,2023-12-01,Biscuits,Snacks,1,3.75,3.75
+T0336,2023-12-02,Soap,Personal Care,10,5,50
+T0337,2023-12-03,Sugar,Groceries,7,7.5,52.5
+T0338,2023-12-04,Eggs,Dairy,2,6.25,12.5
+T0339,2023-12-05,Biscuits,Snacks,4,3.75,15
+T0340,2023-12-06,Milk,Dairy,5,3.75,18.75
+T0341,2023-12-07,Biscuits,Snacks,2,3.75,7.5
+T0342,2023-12-08,Biscuits,Snacks,1,3.75,3.75
+T0343,2023-12-09,Shampoo,Personal Care,9,10,90
+T0344,2023-12-10,Sugar,Groceries,6,7.5,45
+T0345,2023-12-11,Milk,Dairy,9,3.75,33.75
+T0346,2023-12-12,Shampoo,Personal Care,1,10,10
+T0347,2023-12-13,Sugar,Groceries,8,7.5,60
+T0348,2023-12-14,Milk,Dairy,7,3.75,26.25
+T0349,2023-12-15,Shampoo,Personal Care,8,10,80
+T0350,2023-12-16,Bread,Bakery,7,2.5,17.5
+T0351,2023-12-17,Bread,Bakery,9,2.5,22.5
+T0352,2023-12-18,Soap,Personal Care,10,5,50
+T0353,2023-12-19,Coffee,Beverages,8,12.5,100
+T0354,2023-12-20,Tea,Beverages,7,8.75,61.25
+T0355,2023-12-21,Biscuits,Snacks,5,3.75,18.75
+T0356,2023-12-22,Shampoo,Personal Care,4,10,40
+T0357,2023-12-23,Milk,Dairy,5,3.75,18.75
+T0358,2023-12-24,Tea,Beverages,4,8.75,35
+T0359,2023-12-25,Tea,Beverages,10,8.75,87.5
+T0360,2023-12-26,Biscuits,Snacks,7,3.75,26.25
+T0361,2023-12-27,Shampoo,Personal Care,1,10,10
+T0362,2023-12-28,Tea,Beverages,6,8.75,52.5
+T0363,2023-12-29,Bread,Bakery,8,2.5,20
+T0364,2023-12-30,Eggs,Dairy,6,6.25,37.5
+T0365,2023-12-31,Soap,Personal Care,6,5,30
+T0366,2023-01-01,Soap,Personal Care,10,4,40
+T0367,2023-01-02,Soap,Personal Care,9,4,36
+T0368,2023-01-03,Rice,Groceries,9,15,135
+T0369,2023-01-04,Eggs,Dairy,2,5,10
+T0370,2023-01-05,Eggs,Dairy,7,5,35
+T0371,2023-01-06,Tea,Beverages,9,7,63
+T0372,2023-01-07,Eggs,Dairy,8,5,40
+T0373,2023-01-08,Tea,Beverages,8,7,56
+T0374,2023-01-09,Rice,Groceries,2,15,30
+T0375,2023-01-10,Soap,Personal Care,4,4,16
+T0376,2023-01-11,Sugar,Groceries,4,6,24
+T0377,2023-01-12,Soap,Personal Care,10,4,40
+T0378,2023-01-13,Shampoo,Personal Care,8,8,64
+T0379,2023-01-14,Coffee,Beverages,9,10,90
+T0380,2023-01-15,Shampoo,Personal Care,7,8,56
+T0381,2023-01-16,Coffee,Beverages,6,10,60
+T0382,2023-01-17,Shampoo,Personal Care,8,8,64
+T0383,2023-01-18,Soap,Personal Care,5,4,20
+T0384,2023-01-19,Soap,Personal Care,4,4,16
+T0385,2023-01-20,Milk,Dairy,4,3,12
+T0386,2023-01-21,Shampoo,Personal Care,2,8,16
+T0387,2023-01-22,Coffee,Beverages,3,10,30
+T0388,2023-01-23,Eggs,Dairy,4,5,20
+T0389,2023-01-24,Tea,Beverages,5,7,35
+T0390,2023-01-25,Biscuits,Snacks,9,3,27
+T0391,2023-01-26,Biscuits,Snacks,5,3,15
+T0392,2023-01-27,Milk,Dairy,4,3,12
+T0393,2023-01-28,Soap,Personal Care,4,4,16
+T0394,2023-01-29,Shampoo,Personal Care,3,8,24
+T0395,2023-01-30,Soap,Personal Care,1,4,4
+T0396,2023-01-31,Coffee,Beverages,3,10,30
+T0397,2023-02-01,Soap,Personal Care,1,4,4
+T0398,2023-02-02,Rice,Groceries,9,15,135
+T0399,2023-02-03,Soap,Personal Care,3,4,12
+T0400,2023-02-04,Tea,Beverages,2,7,14
+T0401,2023-02-05,Rice,Groceries,10,15,150
+T0402,2023-02-06,Soap,Personal Care,8,4,32
+T0403,2023-02-07,Tea,Beverages,8,7,56
+T0404,2023-02-08,Shampoo,Personal Care,3,8,24
+T0405,2023-02-09,Rice,Groceries,5,15,75
+T0406,2023-02-10,Tea,Beverages,2,7,14
+T0407,2023-02-11,Milk,Dairy,7,3,21
+T0408,2023-02-12,Tea,Beverages,2,7,14
+T0409,2023-02-13,Biscuits,Snacks,1,3,3
+T0410,2023-02-14,Bread,Bakery,3,2,6
+T0411,2023-02-15,Biscuits,Snacks,5,3,15
+T0412,2023-02-16,Milk,Dairy,4,3,12
+T0413,2023-02-17,Milk,Dairy,9,3,27
+T0414,2023-02-18,Sugar,Groceries,10,6,60
+T0415,2023-02-19,Biscuits,Snacks,10,3,30
+T0416,2023-02-20,Eggs,Dairy,9,5,45
+T0417,2023-02-21,Sugar,Groceries,8,6,48
+T0418,2023-02-22,Tea,Beverages,5,7,35
+T0419,2023-02-23,Biscuits,Snacks,7,3,21
+T0420,2023-02-24,Soap,Personal Care,10,4,40
+T0421,2023-02-25,Biscuits,Snacks,1,3,3
+T0422,2023-02-26,Biscuits,Snacks,2,3,6
+T0423,2023-02-27,Eggs,Dairy,4,5,20
+T0424,2023-02-28,Soap,Personal Care,2,4,8
+T0425,2023-03-01,Bread,Bakery,4,2,8
+T0426,2023-03-02,Bread,Bakery,9,2,18
+T0427,2023-03-03,Milk,Dairy,3,3,9
+T0428,2023-03-04,Rice,Groceries,7,15,105
+T0429,2023-03-05,Tea,Beverages,10,7,70
+T0430,2023-03-06,Tea,Beverages,5,7,35
+T0431,2023-03-07,Rice,Groceries,4,15,60
+T0432,2023-03-08,Soap,Personal Care,5,4,20
+T0433,2023-03-09,Tea,Beverages,2,7,14
+T0434,2023-03-10,Eggs,Dairy,5,5,25
+T0435,2023-03-11,Biscuits,Snacks,4,3,12
+T0436,2023-03-12,Sugar,Groceries,2,6,12
+T0437,2023-03-13,Coffee,Beverages,4,10,40
+T0438,2023-03-14,Bread,Bakery,5,2,10
+T0439,2023-03-15,Bread,Bakery,2,2,4
+T0440,2023-03-16,Rice,Groceries,3,15,45
+T0441,2023-03-17,Soap,Personal Care,10,4,40
+T0442,2023-03-18,Biscuits,Snacks,5,3,15
+T0443,2023-03-19,Tea,Beverages,2,7,14
+T0444,2023-03-20,Tea,Beverages,5,7,35
+T0445,2023-03-21,Sugar,Groceries,5,6,30
+T0446,2023-03-22,Coffee,Beverages,9,10,90
+T0447,2023-03-23,Tea,Beverages,8,7,56
+T0448,2023-03-24,Milk,Dairy,10,3,30
+T0449,2023-03-25,Rice,Groceries,7,15,105
+T0450,2023-03-26,Shampoo,Personal Care,10,8,80
+T0451,2023-03-27,Soap,Personal Care,1,4,4
+T0452,2023-03-28,Milk,Dairy,4,3,12
+T0453,2023-03-29,Biscuits,Snacks,10,3,30
+T0454,2023-03-30,Rice,Groceries,5,15,75
+T0455,2023-03-31,Biscuits,Snacks,1,3,3
+T0456,2023-04-01,Bread,Bakery,8,2,16
+T0457,2023-04-02,Coffee,Beverages,8,10,80
+T0458,2023-04-03,Soap,Personal Care,3,4,12
+T0459,2023-04-04,Biscuits,Snacks,7,3,21
+T0460,2023-04-05,Tea,Beverages,2,7,14
+T0461,2023-04-06,Tea,Beverages,6,7,42
+T0462,2023-04-07,Sugar,Groceries,6,6,36
+T0463,2023-04-08,Shampoo,Personal Care,2,8,16
+T0464,2023-04-09,Bread,Bakery,6,2,12
+T0465,2023-04-10,Sugar,Groceries,8,6,48
+T0466,2023-04-11,Soap,Personal Care,7,4,28
+T0467,2023-04-12,Coffee,Beverages,1,10,10
+T0468,2023-04-13,Tea,Beverages,2,7,14
+T0469,2023-04-14,Shampoo,Personal Care,5,8,40
+T0470,2023-04-15,Shampoo,Personal Care,2,8,16
+T0471,2023-04-16,Sugar,Groceries,9,6,54
+T0472,2023-04-17,Rice,Groceries,9,15,135
+T0473,2023-04-18,Tea,Beverages,7,7,49
+T0474,2023-04-19,Rice,Groceries,4,15,60
+T0475,2023-04-20,Coffee,Beverages,6,10,60
+T0476,2023-04-21,Biscuits,Snacks,8,3,24
+T0477,2023-04-22,Tea,Beverages,1,7,7
+T0478,2023-04-23,Eggs,Dairy,5,5,25
+T0479,2023-04-24,Coffee,Beverages,3,10,30
+T0480,2023-04-25,Soap,Personal Care,8,4,32
+T0481,2023-04-26,Tea,Beverages,2,7,14
+T0482,2023-04-27,Rice,Groceries,10,15,150
+T0483,2023-04-28,Eggs,Dairy,3,5,15
+T0484,2023-04-29,Soap,Personal Care,9,4,36
+T0485,2023-04-30,Rice,Groceries,9,15,135
+T0486,2023-05-01,Sugar,Groceries,2,6,12
+T0487,2023-05-02,Eggs,Dairy,2,5,10
+T0488,2023-05-03,Tea,Beverages,2,7,14
+T0489,2023-05-04,Bread,Bakery,8,2,16
+T0490,2023-05-05,Soap,Personal Care,9,4,36
+T0491,2023-05-06,Soap,Personal Care,7,4,28
+T0492,2023-05-07,Tea,Beverages,8,7,56
+T0493,2023-05-08,Eggs,Dairy,8,5,40
+T0494,2023-05-09,Coffee,Beverages,3,10,30
+T0495,2023-05-10,Sugar,Groceries,4,6,24
+T0496,2023-05-11,Biscuits,Snacks,9,3,27
+T0497,2023-05-12,Bread,Bakery,2,2,4
+T0498,2023-05-13,Soap,Personal Care,7,4,28
+T0499,2023-05-14,Shampoo,Personal Care,9,8,72
+T0500,2023-05-15,Soap,Personal Care,1,4,4
+T0501,2023-05-16,Soap,Personal Care,5,4,20
+T0502,2023-05-17,Biscuits,Snacks,10,3,30
+T0503,2023-05-18,Tea,Beverages,3,7,21
+T0504,2023-05-19,Tea,Beverages,9,7,63
+T0505,2023-05-20,Tea,Beverages,6,7,42
+T0506,2023-05-21,Shampoo,Personal Care,9,8,72
+T0507,2023-05-22,Coffee,Beverages,7,10,70
+T0508,2023-05-23,Tea,Beverages,6,7,42
+T0509,2023-05-24,Eggs,Dairy,4,5,20
+T0510,2023-05-25,Biscuits,Snacks,7,3,21
+T0511,2023-05-26,Eggs,Dairy,7,5,35
+T0512,2023-05-27,Rice,Groceries,6,15,90
+T0513,2023-05-28,Tea,Beverages,7,7,49
+T0514,2023-05-29,Sugar,Groceries,3,6,18
+T0515,2023-05-30,Tea,Beverages,1,7,7
+T0516,2023-05-31,Bread,Bakery,9,2,18
+T0517,2023-06-01,Biscuits,Snacks,6,3.3,19.8
+T0518,2023-06-02,Milk,Dairy,8,3.3,26.4
+T0519,2023-06-03,Milk,Dairy,9,3.3,29.7
+T0520,2023-06-04,Tea,Beverages,1,7.7,7.7
+T0521,2023-06-05,Bread,Bakery,7,2.2,15.4
+T0522,2023-06-06,Bread,Bakery,2,2.2,4.4
+T0523,2023-06-07,Tea,Beverages,5,7.7,38.5
+T0524,2023-06-08,Shampoo,Personal Care,10,8.8,88
+T0525,2023-06-09,Sugar,Groceries,2,6.6,13.2
+T0526,2023-06-10,Shampoo,Personal Care,9,8.8,79.2
+T0527,2023-06-11,Sugar,Groceries,6,6.6,39.6
+T0528,2023-06-12,Tea,Beverages,9,7.7,69.3
+T0529,2023-06-13,Rice,Groceries,10,16.5,165
+T0530,2023-06-14,Milk,Dairy,4,3.3,13.2
+T0531,2023-06-15,Soap,Personal Care,4,4.4,17.6
+T0532,2023-06-16,Milk,Dairy,7,3.3,23.1
+T0533,2023-06-17,Milk,Dairy,2,3.3,6.6
+T0534,2023-06-18,Tea,Beverages,3,7.7,23.1
+T0535,2023-06-19,Soap,Personal Care,1,4.4,4.4
+T0536,2023-06-20,Rice,Groceries,6,16.5,99
+T0537,2023-06-21,Rice,Groceries,5,16.5,82.5
+T0538,2023-06-22,Shampoo,Personal Care,6,8.8,52.8
+T0539,2023-06-23,Sugar,Groceries,3,6.6,19.8
+T0540,2023-06-24,Eggs,Dairy,9,5.5,49.5
+T0541,2023-06-25,Sugar,Groceries,10,6.6,66
+T0542,2023-06-26,Bread,Bakery,3,2.2,6.6
+T0543,2023-06-27,Bread,Bakery,2,2.2,4.4
+T0544,2023-06-28,Biscuits,Snacks,7,3.3,23.1
+T0545,2023-06-29,Biscuits,Snacks,4,3.3,13.2
+T0546,2023-06-30,Tea,Beverages,10,7.7,77
+T0547,2023-07-01,Bread,Bakery,4,2.2,8.8
+T0548,2023-07-02,Tea,Beverages,5,7.7,38.5
+T0549,2023-07-03,Tea,Beverages,5,7.7,38.5
+T0550,2023-07-04,Rice,Groceries,8,16.5,132
+T0551,2023-07-05,Soap,Personal Care,9,4.4,39.6
+T0552,2023-07-06,Bread,Bakery,2,2.2,4.4
+T0553,2023-07-07,Tea,Beverages,6,7.7,46.2
+T0554,2023-07-08,Biscuits,Snacks,5,3.3,16.5
+T0555,2023-07-09,Sugar,Groceries,5,6.6,33
+T0556,2023-07-10,Tea,Beverages,5,7.7,38.5
+T0557,2023-07-11,Eggs,Dairy,7,5.5,38.5
+T0558,2023-07-12,Tea,Beverages,2,7.7,15.4
+T0559,2023-07-13,Eggs,Dairy,7,5.5,38.5
+T0560,2023-07-14,Biscuits,Snacks,6,3.3,19.8
+T0561,2023-07-15,Biscuits,Snacks,5,3.3,16.5
+T0562,2023-07-16,Soap,Personal Care,1,4.4,4.4
+T0563,2023-07-17,Sugar,Groceries,5,6.6,33
+T0564,2023-07-18,Rice,Groceries,10,16.5,165
+T0565,2023-07-19,Rice,Groceries,10,16.5,165
+T0566,2023-07-20,Tea,Beverages,5,7.7,38.5
+T0567,2023-07-21,Eggs,Dairy,10,5.5,55
+T0568,2023-07-22,Shampoo,Personal Care,4,8.8,35.2
+T0569,2023-07-23,Eggs,Dairy,10,5.5,55
+T0570,2023-07-24,Soap,Personal Care,3,4.4,13.2
+T0571,2023-07-25,Milk,Dairy,1,3.3,3.3
+T0572,2023-07-26,Soap,Personal Care,8,4.4,35.2
+T0573,2023-07-27,Rice,Groceries,10,16.5,165
+T0574,2023-07-28,Shampoo,Personal Care,3,8.8,26.4
+T0575,2023-07-29,Milk,Dairy,5,3.3,16.5
+T0576,2023-07-30,Shampoo,Personal Care,7,8.8,61.6
+T0577,2023-07-31,Bread,Bakery,4,2.2,8.8
+T0578,2023-08-01,Bread,Bakery,9,2,18
+T0579,2023-08-02,Shampoo,Personal Care,9,8,72
+T0580,2023-08-03,Coffee,Beverages,5,10,50
+T0581,2023-08-04,Bread,Bakery,5,2,10
+T0582,2023-08-05,Tea,Beverages,5,7,35
+T0583,2023-08-06,Shampoo,Personal Care,2,8,16
+T0584,2023-08-07,Tea,Beverages,2,7,14
+T0585,2023-08-08,Bread,Bakery,4,2,8
+T0586,2023-08-09,Sugar,Groceries,9,6,54
+T0587,2023-08-10,Shampoo,Personal Care,2,8,16
+T0588,2023-08-11,Sugar,Groceries,1,6,6
+T0589,2023-08-12,Soap,Personal Care,9,4,36
+T0590,2023-08-13,Milk,Dairy,8,3,24
+T0591,2023-08-14,Shampoo,Personal Care,5,8,40
+T0592,2023-08-15,Biscuits,Snacks,7,3,21
+T0593,2023-08-16,Shampoo,Personal Care,2,8,16
+T0594,2023-08-17,Eggs,Dairy,8,5,40
+T0595,2023-08-18,Rice,Groceries,10,15,150
+T0596,2023-08-19,Coffee,Beverages,6,10,60
+T0597,2023-08-20,Biscuits,Snacks,4,3,12
+T0598,2023-08-21,Milk,Dairy,8,3,24
+T0599,2023-08-22,Soap,Personal Care,7,4,28
+T0600,2023-08-23,Milk,Dairy,3,3,9
+T0601,2023-08-24,Rice,Groceries,1,15,15
+T0602,2023-08-25,Soap,Personal Care,8,4,32
+T0603,2023-08-26,Milk,Dairy,2,3,6
+T0604,2023-08-27,Eggs,Dairy,9,5,45
+T0605,2023-08-28,Bread,Bakery,7,2,14
+T0606,2023-08-29,Tea,Beverages,6,7,42
+T0607,2023-08-30,Coffee,Beverages,7,10,70
+T0608,2023-08-31,Biscuits,Snacks,3,3,9
+T0609,2023-09-01,Sugar,Groceries,2,6,12
+T0610,2023-09-02,Tea,Beverages,10,7,70
+T0611,2023-09-03,Sugar,Groceries,5,6,30
+T0612,2023-09-04,Rice,Groceries,6,15,90
+T0613,2023-09-05,Eggs,Dairy,8,5,40
+T0614,2023-09-06,Tea,Beverages,4,7,28
+T0615,2023-09-07,Shampoo,Personal Care,2,8,16
+T0616,2023-09-08,Shampoo,Personal Care,9,8,72
+T0617,2023-09-09,Shampoo,Personal Care,1,8,8
+T0618,2023-09-10,Sugar,Groceries,5,6,30
+T0619,2023-09-11,Eggs,Dairy,2,5,10
+T0620,2023-09-12,Tea,Beverages,2,7,14
+T0621,2023-09-13,Eggs,Dairy,10,5,50
+T0622,2023-09-14,Rice,Groceries,1,15,15
+T0623,2023-09-15,Shampoo,Personal Care,4,8,32
+T0624,2023-09-16,Bread,Bakery,10,2,20
+T0625,2023-09-17,Eggs,Dairy,2,5,10
+T0626,2023-09-18,Coffee,Beverages,4,10,40
+T0627,2023-09-19,Biscuits,Snacks,4,3,12
+T0628,2023-09-20,Eggs,Dairy,6,5,30
+T0629,2023-09-21,Bread,Bakery,10,2,20
+T0630,2023-09-22,Rice,Groceries,5,15,75
+T0631,2023-09-23,Bread,Bakery,3,2,6
+T0632,2023-09-24,Coffee,Beverages,5,10,50
+T0633,2023-09-25,Bread,Bakery,2,2,4
+T0634,2023-09-26,Rice,Groceries,3,15,45
+T0635,2023-09-27,Rice,Groceries,6,15,90
+T0636,2023-09-28,Eggs,Dairy,10,5,50
+T0637,2023-09-29,Shampoo,Personal Care,1,8,8
+T0638,2023-09-30,Bread,Bakery,5,2,10
+T0639,2023-10-01,Rice,Groceries,3,15,45
+T0640,2023-10-02,Sugar,Groceries,9,6,54
+T0641,2023-10-03,Milk,Dairy,2,3,6
+T0642,2023-10-04,Tea,Beverages,8,7,56
+T0643,2023-10-05,Shampoo,Personal Care,9,8,72
+T0644,2023-10-06,Biscuits,Snacks,2,3,6
+T0645,2023-10-07,Tea,Beverages,9,7,63
+T0646,2023-10-08,Eggs,Dairy,10,5,50
+T0647,2023-10-09,Rice,Groceries,9,15,135
+T0648,2023-10-10,Soap,Personal Care,8,4,32
+T0649,2023-10-11,Rice,Groceries,1,15,15
+T0650,2023-10-12,Tea,Beverages,7,7,49
+T0651,2023-10-13,Sugar,Groceries,2,6,12
+T0652,2023-10-14,Tea,Beverages,8,7,56
+T0653,2023-10-15,Milk,Dairy,2,3,6
+T0654,2023-10-16,Shampoo,Personal Care,10,8,80
+T0655,2023-10-17,Bread,Bakery,2,2,4
+T0656,2023-10-18,Bread,Bakery,5,2,10
+T0657,2023-10-19,Biscuits,Snacks,10,3,30
+T0658,2023-10-20,Coffee,Beverages,6,10,60
+T0659,2023-10-21,Sugar,Groceries,10,6,60
+T0660,2023-10-22,Coffee,Beverages,5,10,50
+T0661,2023-10-23,Tea,Beverages,9,7,63
+T0662,2023-10-24,Biscuits,Snacks,7,3,21
+T0663,2023-10-25,Milk,Dairy,2,3,6
+T0664,2023-10-26,Coffee,Beverages,4,10,40
+T0665,2023-10-27,Sugar,Groceries,8,6,48
+T0666,2023-10-28,Eggs,Dairy,7,5,35
+T0667,2023-10-29,Shampoo,Personal Care,8,8,64
+T0668,2023-10-30,Sugar,Groceries,7,6,42
+T0669,2023-10-31,Milk,Dairy,6,3,18
+T0670,2023-11-01,Sugar,Groceries,6,7.5,45
+T0671,2023-11-02,Soap,Personal Care,6,5,30
+T0672,2023-11-03,Bread,Bakery,8,2.5,20
+T0673,2023-11-04,Milk,Dairy,2,3.75,7.5
+T0674,2023-11-05,Milk,Dairy,2,3.75,7.5
+T0675,2023-11-06,Sugar,Groceries,2,7.5,15
+T0676,2023-11-07,Shampoo,Personal Care,3,10,30
+T0677,2023-11-08,Coffee,Beverages,1,12.5,12.5
+T0678,2023-11-09,Biscuits,Snacks,9,3.75,33.75
+T0679,2023-11-10,Coffee,Beverages,6,12.5,75
+T0680,2023-11-11,Milk,Dairy,7,3.75,26.25
+T0681,2023-11-12,Shampoo,Personal Care,7,10,70
+T0682,2023-11-13,Rice,Groceries,5,18.75,93.75
+T0683,2023-11-14,Biscuits,Snacks,5,3.75,18.75
+T0684,2023-11-15,Shampoo,Personal Care,2,10,20
+T0685,2023-11-16,Biscuits,Snacks,9,3.75,33.75
+T0686,2023-11-17,Eggs,Dairy,3,6.25,18.75
+T0687,2023-11-18,Tea,Beverages,4,8.75,35
+T0688,2023-11-19,Milk,Dairy,6,3.75,22.5
+T0689,2023-11-20,Coffee,Beverages,6,12.5,75
+T0690,2023-11-21,Milk,Dairy,5,3.75,18.75
+T0691,2023-11-22,Biscuits,Snacks,4,3.75,15
+T0692,2023-11-23,Sugar,Groceries,9,7.5,67.5
+T0693,2023-11-24,Biscuits,Snacks,10,3.75,37.5
+T0694,2023-11-25,Coffee,Beverages,1,12.5,12.5
+T0695,2023-11-26,Biscuits,Snacks,5,3.75,18.75
+T0696,2023-11-27,Rice,Groceries,3,18.75,56.25
+T0697,2023-11-28,Soap,Personal Care,5,5,25
+T0698,2023-11-29,Shampoo,Personal Care,6,10,60
+T0699,2023-11-30,Rice,Groceries,3,18.75,56.25
+T0700,2023-12-01,Bread,Bakery,10,2.5,25
+T0701,2023-12-02,Sugar,Groceries,2,7.5,15
+T0702,2023-12-03,Bread,Bakery,1,2.5,2.5
+T0703,2023-12-04,Milk,Dairy,9,3.75,33.75
+T0704,2023-12-05,Eggs,Dairy,7,6.25,43.75
+T0705,2023-12-06,Sugar,Groceries,8,7.5,60
+T0706,2023-12-07,Shampoo,Personal Care,3,10,30
+T0707,2023-12-08,Shampoo,Personal Care,5,10,50
+T0708,2023-12-09,Shampoo,Personal Care,10,10,100
+T0709,2023-12-10,Biscuits,Snacks,2,3.75,7.5
+T0710,2023-12-11,Rice,Groceries,3,18.75,56.25
+T0711,2023-12-12,Bread,Bakery,10,2.5,25
+T0712,2023-12-13,Rice,Groceries,2,18.75,37.5
+T0713,2023-12-14,Soap,Personal Care,8,5,40
+T0714,2023-12-15,Sugar,Groceries,8,7.5,60
+T0715,2023-12-16,Biscuits,Snacks,8,3.75,30
+T0716,2023-12-17,Sugar,Groceries,5,7.5,37.5
+T0717,2023-12-18,Eggs,Dairy,9,6.25,56.25
+T0718,2023-12-19,Milk,Dairy,6,3.75,22.5
+T0719,2023-12-20,Sugar,Groceries,2,7.5,15
+T0720,2023-12-21,Soap,Personal Care,10,5,50
+T0721,2023-12-22,Tea,Beverages,9,8.75,78.75
+T0722,2023-12-23,Soap,Personal Care,1,5,5
+T0723,2023-12-24,Eggs,Dairy,7,6.25,43.75
+T0724,2023-12-25,Biscuits,Snacks,1,3.75,3.75
+T0725,2023-12-26,Rice,Groceries,4,18.75,75
+T0726,2023-12-27,Soap,Personal Care,4,5,20
+T0727,2023-12-28,Bread,Bakery,5,2.5,12.5
+T0728,2023-12-29,Soap,Personal Care,6,5,30
+T0729,2023-12-30,Milk,Dairy,1,3.75,3.75
+T0730,2023-12-31,Tea,Beverages,7,8.75,61.25
+T0731,2023-01-01,Bread,Bakery,3,2,6
+T0732,2023-01-02,Sugar,Groceries,9,6,54
+T0733,2023-01-03,Eggs,Dairy,9,5,45
+T0734,2023-01-04,Coffee,Beverages,6,10,60
+T0735,2023-01-05,Milk,Dairy,7,3,21
+T0736,2023-01-06,Rice,Groceries,7,15,105
+T0737,2023-01-07,Rice,Groceries,8,15,120
+T0738,2023-01-08,Milk,Dairy,6,3,18
+T0739,2023-01-09,Biscuits,Snacks,7,3,21
+T0740,2023-01-10,Biscuits,Snacks,7,3,21
+T0741,2023-01-11,Sugar,Groceries,5,6,30
+T0742,2023-01-12,Milk,Dairy,7,3,21
+T0743,2023-01-13,Rice,Groceries,6,15,90
+T0744,2023-01-14,Bread,Bakery,10,2,20
+T0745,2023-01-15,Tea,Beverages,6,7,42
+T0746,2023-01-16,Milk,Dairy,7,3,21
+T0747,2023-01-17,Milk,Dairy,4,3,12
+T0748,2023-01-18,Sugar,Groceries,10,6,60
+T0749,2023-01-19,Sugar,Groceries,9,6,54
+T0750,2023-01-20,Milk,Dairy,7,3,21
+T0751,2023-01-21,Soap,Personal Care,6,4,24
+T0752,2023-01-22,Eggs,Dairy,6,5,30
+T0753,2023-01-23,Bread,Bakery,2,2,4
+T0754,2023-01-24,Coffee,Beverages,2,10,20
+T0755,2023-01-25,Coffee,Beverages,9,10,90
+T0756,2023-01-26,Eggs,Dairy,6,5,30
+T0757,2023-01-27,Shampoo,Personal Care,3,8,24
+T0758,2023-01-28,Eggs,Dairy,2,5,10
+T0759,2023-01-29,Bread,Bakery,5,2,10
+T0760,2023-01-30,Eggs,Dairy,3,5,15
+T0761,2023-01-31,Biscuits,Snacks,3,3,9
+T0762,2023-02-01,Milk,Dairy,3,3,9
+T0763,2023-02-02,Tea,Beverages,8,7,56
+T0764,2023-02-03,Biscuits,Snacks,10,3,30
+T0765,2023-02-04,Tea,Beverages,10,7,70
+T0766,2023-02-05,Biscuits,Snacks,6,3,18
+T0767,2023-02-06,Shampoo,Personal Care,3,8,24
+T0768,2023-02-07,Tea,Beverages,2,7,14
+T0769,2023-02-08,Tea,Beverages,8,7,56
+T0770,2023-02-09,Soap,Personal Care,5,4,20
+T0771,2023-02-10,Biscuits,Snacks,1,3,3
+T0772,2023-02-11,Shampoo,Personal Care,9,8,72
+T0773,2023-02-12,Milk,Dairy,5,3,15
+T0774,2023-02-13,Tea,Beverages,8,7,56
+T0775,2023-02-14,Rice,Groceries,1,15,15
+T0776,2023-02-15,Shampoo,Personal Care,5,8,40
+T0777,2023-02-16,Milk,Dairy,2,3,6
+T0778,2023-02-17,Biscuits,Snacks,10,3,30
+T0779,2023-02-18,Coffee,Beverages,7,10,70
+T0780,2023-02-19,Tea,Beverages,10,7,70
+T0781,2023-02-20,Coffee,Beverages,1,10,10
+T0782,2023-02-21,Tea,Beverages,10,7,70
+T0783,2023-02-22,Eggs,Dairy,6,5,30
+T0784,2023-02-23,Biscuits,Snacks,8,3,24
+T0785,2023-02-24,Coffee,Beverages,3,10,30
+T0786,2023-02-25,Rice,Groceries,8,15,120
+T0787,2023-02-26,Milk,Dairy,6,3,18
+T0788,2023-02-27,Milk,Dairy,9,3,27
+T0789,2023-02-28,Bread,Bakery,1,2,2
+T0790,2023-03-01,Eggs,Dairy,8,5,40
+T0791,2023-03-02,Tea,Beverages,9,7,63
+T0792,2023-03-03,Coffee,Beverages,10,10,100
+T0793,2023-03-04,Bread,Bakery,6,2,12
+T0794,2023-03-05,Shampoo,Personal Care,5,8,40
+T0795,2023-03-06,Sugar,Groceries,7,6,42
+T0796,2023-03-07,Shampoo,Personal Care,10,8,80
+T0797,2023-03-08,Rice,Groceries,6,15,90
+T0798,2023-03-09,Milk,Dairy,6,3,18
+T0799,2023-03-10,Milk,Dairy,9,3,27
+T0800,2023-03-11,Sugar,Groceries,5,6,30
+T0801,2023-03-12,Soap,Personal Care,10,4,40
+T0802,2023-03-13,Bread,Bakery,6,2,12
+T0803,2023-03-14,Milk,Dairy,10,3,30
+T0804,2023-03-15,Bread,Bakery,6,2,12
+T0805,2023-03-16,Soap,Personal Care,7,4,28
+T0806,2023-03-17,Bread,Bakery,10,2,20
+T0807,2023-03-18,Milk,Dairy,5,3,15
+T0808,2023-03-19,Coffee,Beverages,7,10,70
+T0809,2023-03-20,Shampoo,Personal Care,3,8,24
+T0810,2023-03-21,Coffee,Beverages,2,10,20
+T0811,2023-03-22,Sugar,Groceries,9,6,54
+T0812,2023-03-23,Shampoo,Personal Care,1,8,8
+T0813,2023-03-24,Shampoo,Personal Care,5,8,40
+T0814,2023-03-25,Bread,Bakery,4,2,8
+T0815,2023-03-26,Shampoo,Personal Care,8,8,64
+T0816,2023-03-27,Eggs,Dairy,4,5,20
+T0817,2023-03-28,Bread,Bakery,3,2,6
+T0818,2023-03-29,Milk,Dairy,5,3,15
+T0819,2023-03-30,Milk,Dairy,9,3,27
+T0820,2023-03-31,Coffee,Beverages,9,10,90
+T0821,2023-04-01,Rice,Groceries,6,15,90
+T0822,2023-04-02,Biscuits,Snacks,3,3,9
+T0823,2023-04-03,Biscuits,Snacks,7,3,21
+T0824,2023-04-04,Bread,Bakery,3,2,6
+T0825,2023-04-05,Bread,Bakery,10,2,20
+T0826,2023-04-06,Bread,Bakery,8,2,16
+T0827,2023-04-07,Rice,Groceries,7,15,105
+T0828,2023-04-08,Shampoo,Personal Care,4,8,32
+T0829,2023-04-09,Tea,Beverages,10,7,70
+T0830,2023-04-10,Soap,Personal Care,8,4,32
+T0831,2023-04-11,Eggs,Dairy,9,5,45
+T0832,2023-04-12,Eggs,Dairy,5,5,25
+T0833,2023-04-13,Tea,Beverages,4,7,28
+T0834,2023-04-14,Shampoo,Personal Care,10,8,80
+T0835,2023-04-15,Tea,Beverages,8,7,56
+T0836,2023-04-16,Soap,Personal Care,7,4,28
+T0837,2023-04-17,Coffee,Beverages,9,10,90
+T0838,2023-04-18,Sugar,Groceries,3,6,18
+T0839,2023-04-19,Eggs,Dairy,10,5,50
+T0840,2023-04-20,Bread,Bakery,5,2,10
+T0841,2023-04-21,Rice,Groceries,8,15,120
+T0842,2023-04-22,Shampoo,Personal Care,9,8,72
+T0843,2023-04-23,Milk,Dairy,9,3,27
+T0844,2023-04-24,Milk,Dairy,5,3,15
+T0845,2023-04-25,Milk,Dairy,3,3,9
+T0846,2023-04-26,Soap,Personal Care,8,4,32
+T0847,2023-04-27,Coffee,Beverages,3,10,30
+T0848,2023-04-28,Sugar,Groceries,2,6,12
+T0849,2023-04-29,Eggs,Dairy,8,5,40
+T0850,2023-04-30,Shampoo,Personal Care,1,8,8
+T0851,2023-05-01,Sugar,Groceries,1,6,6
+T0852,2023-05-02,Sugar,Groceries,9,6,54
+T0853,2023-05-03,Shampoo,Personal Care,4,8,32
+T0854,2023-05-04,Sugar,Groceries,2,6,12
+T0855,2023-05-05,Shampoo,Personal Care,4,8,32
+T0856,2023-05-06,Rice,Groceries,6,15,90
+T0857,2023-05-07,Milk,Dairy,6,3,18
+T0858,2023-05-08,Bread,Bakery,3,2,6
+T0859,2023-05-09,Rice,Groceries,5,15,75
+T0860,2023-05-10,Tea,Beverages,3,7,21
+T0861,2023-05-11,Tea,Beverages,8,7,56
+T0862,2023-05-12,Biscuits,Snacks,1,3,3
+T0863,2023-05-13,Milk,Dairy,1,3,3
+T0864,2023-05-14,Soap,Personal Care,4,4,16
+T0865,2023-05-15,Bread,Bakery,9,2,18
+T0866,2023-05-16,Biscuits,Snacks,9,3,27
+T0867,2023-05-17,Sugar,Groceries,2,6,12
+T0868,2023-05-18,Soap,Personal Care,4,4,16
+T0869,2023-05-19,Soap,Personal Care,2,4,8
+T0870,2023-05-20,Rice,Groceries,4,15,60
+T0871,2023-05-21,Sugar,Groceries,10,6,60
+T0872,2023-05-22,Tea,Beverages,2,7,14
+T0873,2023-05-23,Milk,Dairy,8,3,24
+T0874,2023-05-24,Biscuits,Snacks,9,3,27
+T0875,2023-05-25,Rice,Groceries,9,15,135
+T0876,2023-05-26,Biscuits,Snacks,4,3,12
+T0877,2023-05-27,Bread,Bakery,5,2,10
+T0878,2023-05-28,Sugar,Groceries,1,6,6
+T0879,2023-05-29,Biscuits,Snacks,6,3,18
+T0880,2023-05-30,Eggs,Dairy,10,5,50
+T0881,2023-05-31,Sugar,Groceries,3,6,18
+T0882,2023-06-01,Milk,Dairy,9,3.3,29.7
+T0883,2023-06-02,Shampoo,Personal Care,2,8.8,17.6
+T0884,2023-06-03,Coffee,Beverages,9,11,99
+T0885,2023-06-04,Coffee,Beverages,9,11,99
+T0886,2023-06-05,Coffee,Beverages,1,11,11
+T0887,2023-06-06,Sugar,Groceries,8,6.6,52.8
+T0888,2023-06-07,Rice,Groceries,7,16.5,115.5
+T0889,2023-06-08,Shampoo,Personal Care,5,8.8,44
+T0890,2023-06-09,Rice,Groceries,6,16.5,99
+T0891,2023-06-10,Milk,Dairy,6,3.3,19.8
+T0892,2023-06-11,Eggs,Dairy,2,5.5,11
+T0893,2023-06-12,Biscuits,Snacks,6,3.3,19.8
+T0894,2023-06-13,Bread,Bakery,1,2.2,2.2
+T0895,2023-06-14,Shampoo,Personal Care,9,8.8,79.2
+T0896,2023-06-15,Shampoo,Personal Care,3,8.8,26.4
+T0897,2023-06-16,Tea,Beverages,8,7.7,61.6
+T0898,2023-06-17,Bread,Bakery,3,2.2,6.6
+T0899,2023-06-18,Milk,Dairy,8,3.3,26.4
+T0900,2023-06-19,Rice,Groceries,5,16.5,82.5
+,,,,,TOTAL,31971.25

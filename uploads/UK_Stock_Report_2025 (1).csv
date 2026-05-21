@@ -1,0 +1,35 @@
+Product,Category,Opening_Stock,Units_Sold,Remaining_Stock,Reorder_Level,Stock_Status
+Apples,Fruits,4190,3613,577,143,In Stock
+Bananas,Fruits,4571,3373,1198,235,In Stock
+Biscuits,Snacks,4027,3260,767,183,In Stock
+Bread,Bakery,4679,3553,1126,149,In Stock
+Butter,Dairy,4879,3787,1092,233,In Stock
+Cheese,Dairy,3730,3501,229,199,In Stock
+Chicken,Meat,3759,3394,365,193,In Stock
+Chips,Snacks,3951,3438,513,123,In Stock
+Chocolate,Snacks,4060,3352,708,222,In Stock
+Coffee,Beverages,4460,3573,887,212,In Stock
+Cooking Oil,Groceries,4100,3472,628,231,In Stock
+Croissant,Bakery,4209,3467,742,182,In Stock
+Detergent,Household,4183,3655,528,204,In Stock
+Dish Wash,Household,4060,3401,659,186,In Stock
+Eggs,Dairy,4764,3583,1181,247,In Stock
+Face Wash,Personal Care,4359,3755,604,175,In Stock
+Fish,Meat,3757,3355,402,165,In Stock
+Flour,Groceries,3666,3377,289,177,In Stock
+Juice,Beverages,3986,3545,441,147,In Stock
+Milk,Dairy,4603,3435,1168,202,In Stock
+Muffin,Bakery,3719,3410,309,248,In Stock
+Oranges,Fruits,3815,3259,556,230,In Stock
+Pasta,Groceries,3806,3341,465,194,In Stock
+Popcorn,Snacks,4052,3379,673,227,In Stock
+Rice,Groceries,3753,3400,353,127,In Stock
+Shampoo,Personal Care,3885,3464,421,213,In Stock
+Soap,Personal Care,4469,3564,905,178,In Stock
+Soft Drink,Beverages,4407,3513,894,115,In Stock
+Sugar,Groceries,4346,3748,598,100,In Stock
+Tea,Beverages,3950,3441,509,226,In Stock
+Tissue Paper,Household,3803,3585,218,209,In Stock
+Toothpaste,Personal Care,4220,3733,487,154,In Stock
+Water Bottle,Beverages,4069,3654,415,125,In Stock
+Yogurt,Dairy,3842,3434,408,177,In Stock

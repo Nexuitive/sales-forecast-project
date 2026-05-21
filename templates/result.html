@@ -51,6 +51,24 @@
             color:#cbd5e1;
         }
 
+        .insight-box{
+            background:#1e293b;
+            padding:25px;
+            border-radius:15px;
+            margin-bottom:40px;
+            text-align:center;
+            border-left:5px solid #38bdf8;
+        }
+
+        .insight-box h2{
+            margin-bottom:10px;
+        }
+
+        .insight-box p{
+            color:#cbd5e1;
+            font-size:16px;
+        }
+
         .graph-box{
             background:white;
             padding:20px;
@@ -64,6 +82,8 @@
             padding:20px;
             border-radius:15px;
             overflow:auto;
+            max-height:400px;
+            margin-bottom:40px;
         }
 
         table{
@@ -82,15 +102,73 @@
             color:white;
         }
 
+        .inventory-title{
+            margin-bottom:20px;
+        }
+
+        .download-btn{
+            background:#38bdf8;
+            color:white;
+            padding:14px 30px;
+            border-radius:10px;
+            text-decoration:none;
+            font-weight:bold;
+            display:inline-block;
+            margin-top:15px;
+        }
+
+        .filter-box{
+            margin-bottom:25px;
+        }
+
+        .filter-box input{
+            padding:12px;
+            border-radius:10px;
+            margin-right:10px;
+        }
+
+        .filter-box button{
+            padding:12px 25px;
+            border:none;
+            border-radius:10px;
+            background:#38bdf8;
+            color:white;
+            font-weight:bold;
+            cursor:pointer;
+        }
+
+        .product-dropdown{
+            padding:12px;
+            border-radius:10px;
+            width:300px;
+            font-size:16px;
+            margin-bottom:20px;
+        }
+.red{
+    color:red;
+    font-weight:bold;
+}
+
+.orange{
+    color:#f59e0b;
+    font-weight:bold;
+}
+
+.lime{
+    color:lime;
+    font-weight:bold;
+}
     </style>
 
 </head>
 
 <body>
 
+    <!-- TOP -->
+
     <div class="top">
 
-        <h1>Sales Forecast Dashboard</h1>
+        <h1>Retail Sales Forecasting Dashboard</h1>
 
         <p>
             Prophet-based predictive analytics for retail sales forecasting
@@ -99,47 +177,238 @@
     </div>
 
 
+    <!-- CARDS -->
+
     <div class="cards">
 
         <div class="card">
+
             <h2>{{ avg_sales }}</h2>
+
             <p>Average Forecast Sales</p>
+
         </div>
 
         <div class="card">
+
             <h2>{{ max_sales }}</h2>
+
             <p>Highest Forecast</p>
+
         </div>
 
         <div class="card">
-            <h2>{{ min_sales }}</h2>
-            <p>Lowest Forecast</p>
-        </div>
-        <div style="background:#1e293b; padding:25px; border-radius:15px; margin-bottom:30px; text-align:center;">
-    
-        <h2 style="margin-bottom:10px;">Business Insight</h2>
-    
-        <p style="color:#cbd5e1;">
-        {{ insight }}
-        </p>
 
-         </div>
+            <h2>{{ min_sales }}</h2>
+
+            <p>Lowest Forecast</p>
+
+        </div>
 
     </div>
 
 
+    <!-- BUSINESS INSIGHT -->
+
+    <div class="insight-box">
+        
+        <h2>📊 Business Insight</h2>
+        
+        <p>
+            {{ insight }}
+        </p>
+
+        <a href="/download" class="download-btn">
+
+            Download Forecast CSV
+
+        </a>
+
+    </div>
+
+
+    <!-- GRAPH -->
+
     <div class="graph-box">
+
+        <!-- DATE FILTER -->
+
+        <div class="filter-box">
+
+            <h2 style="color:black; margin-bottom:15px;">
+
+                Filter Forecast Period
+
+            </h2>
+
+            <form method="POST" action="/filter">
+
+                <div style="margin-bottom:20px;">
+
+    <label style="color:black; font-weight:bold;">
+        Select Start Date
+    </label>
+
+    <input
+        type="date"
+        name="start_date"
+        required
+        style="
+            padding:10px;
+            margin-right:10px;
+            border-radius:10px;
+        "
+    >
+
+    <label style="color:black; font-weight:bold;">
+        Select End Date
+    </label>
+
+    <input
+        type="date"
+        name="end_date"
+        required
+        style="
+            padding:10px;
+            margin-right:10px;
+            border-radius:10px;
+        "
+    >
+
+    <button
+        type="submit"
+        style="
+            background:#38bdf8;
+            color:white;
+            padding:10px 20px;
+            border:none;
+            border-radius:10px;
+            cursor:pointer;
+        "
+    >
+        Apply Filter
+    </button>
+
+</div>
+
+            </form>
+
+        </div>
 
         {{ graph_html | safe }}
 
     </div>
 
 
+    <!-- TREND & SEASONALITY -->
+
+    <div class="graph-box">
+
+        <h2 style="color:black; text-align:center; margin-bottom:20px;">
+
+            Trend & Seasonality Analysis
+
+        </h2>
+
+        <img
+            src="/static/components.png"
+            style="width:100%; border-radius:15px;"
+        >
+
+    </div>
+
+
+    <!-- FORECAST TABLE -->
+
     <div class="table-box">
 
         {{ table_html | safe }}
 
     </div>
+
+
+    <!-- INVENTORY -->
+
+    <div class="table-box">
+
+    <h2 style="margin-bottom:20px;">
+        Inventory Status
+    </h2>
+
+    <form method="POST" action="/filter-product">
+
+        <select
+            name="product"
+            class="product-dropdown"
+            onchange="this.form.submit()"
+        >
+
+            <option value="All Products">
+
+                All Products
+
+            </option>
+
+            {% for item in inventory %}
+
+            <option
+                value="{{ item.product }}"
+                {% if selected_product == item.product %}
+                selected
+                {% endif %}
+            >
+
+                {{ item.product }}
+
+            </option>
+
+            {% endfor %}
+
+        </select>
+
+    </form>
+
+    <table>
+
+        <tr>
+
+            <th>Product</th>
+
+            <th>Remaining Stock</th>
+
+            <th>Status</th>
+
+        </tr>
+
+        {% for item in inventory %}
+
+        <tr>
+
+            <td>
+
+                {{ item.product }}
+
+            </td>
+
+            <td class="{{ item.color }}">
+
+                {{ item.stock }}
+
+            </td>
+
+            <td class="{{ item.color }}">
+
+                {{ item.status }}
+
+            </td>
+
+        </tr>
+
+        {% endfor %}
+
+    </table>
+
+</div>
 
 </body>
 
